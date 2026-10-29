@@ -1,0 +1,28 @@
+澳門、氹仔、路環古今地圖重疊對照｜2026-10-29
+
+1. 官方土地輪廓：土地工務局 Macau Webmap EVOL / evol_v2 / MapServer layer 0
+https://web.gis.gov.mo/arcgis/rest/services/ThematicMap/evol_v2/MapServer/0
+已核實查詢結果222個features，32個年份：1912,1936,1957,1975,1986,1991,1996,1999,2000–2023。
+每年土地按多邊形環拓撲合併；新增範圍 = 2023年土地減去所選年份土地。
+橫琴澳大校區各年獨立多邊形已剔除於土地比較之外，另以灰色顯示，避免將管理範圍擴展誤作填海。
+坐標：Macao Grid EPSG:8433，以Macao1920→WGS84 EPSG:8438 Molodensky-Badekas變換。輪廓1.5米簡化容差，不代表原始精度。coast.json內areas為輪廓計算面積，不是官方統計面積。
+
+2. 中央研究院澳門百年歷史地圖WMTS服務
+https://gis.sinica.edu.tw/macau/
+https://gis.sinica.edu.tw/macau/wmts/1.0.0/WMTSCapabilities.xml
+採用服務所列ResourceURL、GoogleMapsCompatible及地理對位：Macau_1900s,Macau_1931,Macau_7K_1945,Macau_10K_1991,Macau_20K_1996,Macau_30K_1996,Macau_10K_1998,Macau_10K_2005。
+1900s為年代概括；1931界址輿圖不作精密岸線依據。1945/1991/1998/2005圖主要澳門半島。1996兩版覆蓋全澳，圖內規劃線未必為已建成項目。未獨立驗證歷史原圖配準精度。
+
+3.1912年氹仔掃描圖：葡萄牙國家圖書館Atlas de Macau，ca-88-a第5頁（Public Domain Mark1.0）
+https://permalinkbnd.bnportugal.gov.pt/en/records/item/14533-atlas-de-macau
+近似配準版mini-macau / asdfghj1237890（MIT）
+https://github.com/asdfghj1237890/mini-macau
+5地標TPS及官方1912輪廓局部校正；控制點零殘差不代表實地精度，部分地區曾有數百米修正。
+
+4.現代街道：© OpenStreetMap contributors（ODbL）
+https://www.openstreetmap.org/copyright
+現代影像：Esri World Imagery / Esri, Maxar, Earthstar Geographics, GIS User Community
+https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer
+擷取日期2026-10-29不等於實測或拍攝日期；各地影像日期不同，本版未取得逐地塊拍攝時間。內置全澳快照供基礎瀏覽，勾選可載入網上高倍圖磚。
+
+不能從兩期輪廓差異單獨確定某地段填海成因或確實工程年。可能包括淤積、水域處理及測繪概括化差異。1912年不等於完全未填海。2023年後土地變化須以更新官方資料另行核實。工具不能作地籍、工程或法律界線判定。
