@@ -26,3 +26,9 @@ https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer
 擷取日期2026-10-29不等於實測或拍攝日期；各地影像日期不同，本版未取得逐地塊拍攝時間。內置全澳快照供基礎瀏覽，勾選可載入網上高倍圖磚。
 
 不能從兩期輪廓差異單獨確定某地段填海成因或確實工程年。可能包括淤積、水域處理及測繪概括化差異。1912年不等於完全未填海。2023年後土地變化須以更新官方資料另行核實。工具不能作地籍、工程或法律界線判定。
+
+5.補充用戶提供館藏原圖，查閱2026-10-30：
+https://libspc.must.edu.mo/fullRead/000051/991003572000905076
+Plano Hidrográfico das Ilhas da Taipa e Coloane；閱覽器書目列1967年1月出版，圖面印1965–1966；1:10000，Mercator。原件AHU，圖號522。僅連結原圖，未配準加入圖層。
+https://catalogue.nla.gov.au/catalog/4705059
+目錄4705059，來源頁防機械人驗證，題名及年份待核實；未推斷年份。
